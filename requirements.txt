@@ -6,3 +6,6 @@ pymongo
 dnspython
 # --- For-Web-Response ------- #
 aiohttp
+flask==2.0.1
+requests
+Werkzeug==2.2.2
