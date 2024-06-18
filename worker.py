@@ -16,7 +16,7 @@ async def start_bot(bot_name, bot_config):
     return await create_subprocess_exec(executable, bot_file, cwd=bot_dir, env=os.environ, stdout=DEVNULL, stderr=DEVNULL)
 
 async def main():
-    with open("config.json", "r") as jsonfile:
+    with open("config.py", "r") as jsonfile:
         bots = loads(jsonfile)
 
     bot_tasks = []
