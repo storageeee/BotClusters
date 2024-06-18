@@ -17,7 +17,7 @@ async def start_bot(bot_name, bot_config):
 
 async def main():
     with open("config.json", "r") as jsonfile:
-        bots = loads(jsonfile)
+        bots = load(jsonfile)
 
     bot_tasks = []
     for bot_name, bot_config in bots.items():
