@@ -7,13 +7,5 @@
             "TOKEN2": ""
         },
         "run": "main.py"
-    },
-    "bot2": {
-        "source": "https://github.com/Itzmepapa123/Greet.git",
-        "branch": "Aizenkami",
-        "env": {
-            "TOKEN": ""
-        },
-        "run": "main.py"
     }
 }
