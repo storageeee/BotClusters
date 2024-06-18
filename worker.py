@@ -1,7 +1,7 @@
 import os
 from os import path as ospath
 from sys import executable
-from json import loads
+from json import load
 from asyncio import create_subprocess_exec, run, sleep as asleep, gather, create_task
 from asyncio.subprocess import DEVNULL
 
